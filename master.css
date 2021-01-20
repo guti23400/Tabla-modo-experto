@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.tabla {
+  overflow-x: scroll;
+}
+
+table {
+  empty-cells: hide;
+  border-collapse: collapse;
+  margin: 5% auto 0;
+  text-align: center;
+  width: 90%;
+  table-layout: fixed;
+}
+
+th, td {
+  border: black 1px solid;
+  width: 20%;
+}
